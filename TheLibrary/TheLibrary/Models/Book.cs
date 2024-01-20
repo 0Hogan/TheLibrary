@@ -2,7 +2,7 @@ namespace TheLibrary.Models;
 
 public class Book : Entry
 {
-    public Book(string name, Author author, string owner="home", string borrower="home", string description="") : base(name, owner, borrower, description)
+    public Book(string name, Author author, CheckoutStatus checkoutStatus, string description="") : base(name, checkoutStatus, description)
     {
         Author = author;
     }

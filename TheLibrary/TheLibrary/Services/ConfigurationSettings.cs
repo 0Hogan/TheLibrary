@@ -16,12 +16,8 @@ public class ConfigurationSettings
     
     public Person getDefaultOwner()
     {
-        if (!DefaultOwner)
-        {
-            return new Person("Unknown");
-        }
         return DefaultOwner;
     }
 
-    private Person DefaultOwner { get; set; }
+    private Person DefaultOwner { get; set; } = new Person("Unknown");
 }
