@@ -8,5 +8,5 @@
         x:Class="TheLibrary.Views.MainWindow"
         Icon="/Assets/avalonia-logo.ico"
         Title="TheLibrary">
-        <views:MainView />
+        <views:LibraryListView />
 </Window>
