@@ -9,6 +9,16 @@ Okay, this is only partly true. In reality, I'd like to keep track of more metad
 
 The goal of this project is to create a cross-platform application capable of tracking information related to books/movies/any form of media accessible by a person. This would include a "checkout" system similar to that of a library's system - including the concept of an inter-library loan (that is, the ability to borrow an entry from someone else).
 
+## Roadmap
+
+1. Establish basic data structures for checking out books all in memory.
+2. Establish a storage method (e.g. csv file, database, etc.) for making the entries persistent, as well as an interface for said storage.
+3. Add in movies, games, music, etc.
+4. Add in barcode number support.
+5. Add in scanning support.
+6. Allow for custom-defined entry-types.
+7. ???
+
 ## Current Status
 
-Very, very immature. Currently, I am still in the process of creating some of the initial versions of the basic data types to be used throughout the project.
+Very, very immature. Currently, I am still in the process of creating some of the initial versions of the basic data types to be used throughout the project (i.e. step 1 of the roadmap).
