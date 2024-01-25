@@ -7,5 +7,7 @@ public class Book : Entry
         Author = author;
     }
 
+    /// The primary author of the book.
     public Author Author;
+    
 }

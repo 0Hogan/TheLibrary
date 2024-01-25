@@ -14,10 +14,11 @@ public class ConfigurationSettings
         DefaultOwner = new Person("Hogan", "Michael & Kadi");
     }
     
-    public Person getDefaultOwner()
+    public Person GetDefaultOwner()
     {
         return DefaultOwner;
     }
 
+    public bool DevelopmentTesting { get; } = true;
     private Person DefaultOwner { get; set; } = new Person("Unknown");
 }
